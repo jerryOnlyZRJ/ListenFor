@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<link href="https://cdn.quilljs.com/1.3.6/quill.snow.css" rel="stylesheet">
+		<link href="../../css/mui.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="editor.css" />
+		<link rel="stylesheet" type="text/css" href="font.css" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<script src="../../js/mui.min.js"></script>
+		<script type="text/javascript" charset="utf-8">
+			mui.init();
+		</script>
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<h1 class="mui-title">ListenFor</h1>
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+		</header>
+		</header>
+		<div class="mui-content">
+			<div id="quill-container">
+
+			</div>
+		</div>
+		<button type="button" class="mui-btn mui-btn-blue mui-btn-outlined speech-btn">语音识别</button>
+		<script src="https://cdn.quilljs.com/1.3.6/quill.js"></script>
+		<script>
+			var fonts = ['SimSun', 'SimHei', 'Microsoft-YaHei', 'KaiTi', 'FangSong', 'Arial', 'Times-New-Roman', 'sans-serif'];
+			var Font = Quill.import('formats/font');
+			Font.whitelist = fonts; //将字体加入到白名单 
+			Quill.register(Font, true);
+			const toolbarOptions = [
+				[{
+					'font': fonts
+				}, {
+					'size': ["初号", "小初", "一号", "小一", "二号", "小二", "三号", "小三", "四号", "小四", "五号", "小五", "六号", "小六", "七号", "八号"]
+				}],
+				['bold', 'italic', 'underline', {
+					'color': []
+				}, {
+					'background': []
+				}],
+				[{
+					'list': 'ordered'
+				}, {
+					'list': 'bullet'
+				}, {
+					'direction': 'rtl'
+				}, {
+					'align': []
+				}]
+			]
+			var quill = new Quill('#quill-container', {
+				modules: {
+					toolbar: toolbarOptions
+				},
+				theme: 'snow'
+			});
+		</script>
+	</body>
+
+</html>
