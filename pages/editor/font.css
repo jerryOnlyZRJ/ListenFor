@@ -1,4 +1,4 @@
-
+/*字体*/
 .ql-snow .ql-picker.ql-font .ql-picker-label[data-value=SimSun]::before,
 .ql-snow .ql-picker.ql-font .ql-picker-item[data-value=SimSun]::before {
     content: "宋体";
@@ -65,3 +65,83 @@
   	font-family: "sans-serif";
 }
 
+/*字号*/
+.ql-snow .ql-picker.ql-size .ql-picker-label[data-value="3.5rem"]::before,
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="3.5rem"]::before {
+    content: '初号';
+}
+
+.ql-snow .ql-picker.ql-size .ql-picker-label[data-value="3rem"]::before,
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="3rem"]::before {
+    content: '小初';
+}
+
+.ql-snow .ql-picker.ql-size .ql-picker-label[data-value="2.125rem"]::before,
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="2.125rem"]::before {
+    content: '一号';
+}
+
+.ql-snow .ql-picker.ql-size .ql-picker-label[data-value="2rem"]::before,
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="2rem"]::before {
+    content: '小一';
+}
+
+.ql-snow .ql-picker.ql-size .ql-picker-label[data-value="1.8125rem"]::before,
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="1.8125rem"]::before {
+    content: '二号';
+}
+
+.ql-snow .ql-picker.ql-size .ql-picker-label[data-value="1.5rem"]::before,
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="1.5rem"]::before {
+    content: '小二';
+}
+
+.ql-snow .ql-picker.ql-size .ql-picker-label[data-value="1.3125rem"]::before,
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="1.3125rem"]::before {
+    content: '三号';
+}
+
+.ql-snow .ql-picker.ql-size .ql-picker-label[data-value="1.25rem"]::before,
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="1.25rem"]::before {
+    content: '小三';
+}
+
+.ql-snow .ql-picker.ql-size .ql-picker-label[data-value="1.125rem"]::before,
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="1.125rem"]::before {
+    content: '四号';
+}
+
+.ql-snow .ql-picker.ql-size .ql-picker-label[data-value="1rem"]::before,
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="1rem"]::before {
+    content: '小四';
+}
+
+.ql-snow .ql-picker.ql-size .ql-picker-label[data-value="0.875rem"]::before,
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="0.875rem"]::before {
+    content: '五号';
+}
+
+.ql-snow .ql-picker.ql-size .ql-picker-label[data-value="0.75rem"]::before,
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="0.75rem"]::before {
+    content: '小五';
+}
+
+.ql-snow .ql-picker.ql-size .ql-picker-label[data-value="0.625rem"]::before,
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="0.625rem"]::before {
+    content: '六号';
+}
+
+.ql-snow .ql-picker.ql-size .ql-picker-label[data-value="0.5rem"]::before,
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="0.5rem"]::before {
+    content: '小六';
+}
+
+.ql-snow .ql-picker.ql-size .ql-picker-label[data-value="0.4375rem"]::before,
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="0.4375rem"]::before {
+    content: '七号';
+}
+
+.ql-snow .ql-picker.ql-size .ql-picker-label[data-value="0.375rem"]::before,
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="0.375rem"]::before {
+    content: '八号';
+}
